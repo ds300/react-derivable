@@ -4,7 +4,8 @@
   "description": "Make React component react on changes in referened derivable values",
   "main": "lib/index.js",
   "scripts": {
-    "test": "make lint test"
+    "test": "make lint test",
+    "prepublish": "make build"
   },
   "repository": {
     "type": "git",
